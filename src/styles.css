@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#global{
+    background: #F7F7F7;
+}
+
+#partone{
+    background: #F7F7F7
+}
+
+#home{
+    background: #F7F7F7;
+}
+
+#copy{
+    color: white;
+}
+
+@media(max-width:341px){
+    .img{
+        width: 50px;
+    }
+}
+
+@media(max-width: 505px){
+    #not{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 420px){
+    #not{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 316px){
+    #not{
+        width: 280px;
+        height: 280px;
+    }
+
+    #titNot{
+        font-size: 35px;
+    }
+}
